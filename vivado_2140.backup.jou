@@ -1,0 +1,234 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Aug 29 09:42:16 2024
+# Process ID: 2140
+# Current directory: C:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14316 C:\Code\FPGA-HDL\Custom_IP\MotorDriver_v1_0\MotorDriver_V1_0.xpr
+# Log file: C:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/vivado.log
+# Journal file: C:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0\vivado.jou
+# Running On: LT24G23002, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 14, Host memory: 33974 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/MotorDriver_V1_0.xpr
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file C:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/component.xml
+set_property core_revision 8 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property  ip_repo_paths  c:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0 [current_project]
+update_ip_catalog
+ipx::add_file C:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/MotorDriver_V1_0.srcs/sources_1/new/MotorDriver.v [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type verilogSource [ipx::get_files MotorDriver_V1_0.srcs/sources_1/new/MotorDriver.v -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files MotorDriver_V1_0.srcs/sources_1/new/MotorDriver.v -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::remove_file src/MotorDriver.v [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+ipx::add_file C:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/MotorDriver_V1_0.srcs/sources_1/new/MotorDriver.v [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type verilogSource [ipx::get_files MotorDriver_V1_0.srcs/sources_1/new/MotorDriver.v -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files MotorDriver_V1_0.srcs/sources_1/new/MotorDriver.v -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::remove_file src/MotorDriver.v [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+ipx::remove_file src/TestBench.v [ipx::get_file_groups xilinx_testbench -of_objects [ipx::current_core]]
+set_property core_revision 9 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0
+ipx::remove_all_hdl_parameter -remove_inferred_params [ipx::current_core]
+ipx::add_model_parameters_from_hdl [ipx::current_core] -top_level_hdl_file C:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/MotorDriver_V1_0.srcs/sources_1/new/MotorDriver.v -top_module_name MotorDriver
+ipx::remove_all_hdl_parameter -remove_inferred_params [ipx::current_core]
+ipx::add_model_parameters_from_hdl [ipx::current_core] -top_level_hdl_file c:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/MotorDriver_V1_0.srcs/sources_1/new/MotorDriver.v -top_module_name MotorDriver
+ipx::remove_all_hdl_parameter -remove_inferred_params [ipx::current_core]
+ipx::add_model_parameters_from_hdl [ipx::current_core] -top_level_hdl_file c:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/MotorDriver_V1_0.srcs/sources_1/new/MotorDriver.v -top_module_name MotorDriver
+ipx::remove_all_hdl_parameter -remove_inferred_params [ipx::current_core]
+ipx::add_model_parameters_from_hdl [ipx::current_core] -top_level_hdl_file c:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/MotorDriver_V1_0.srcs/sources_1/new/MotorDriver.v -top_module_name MotorDriver
+ipx::add_file C:/Code/FPGA-HDL/Custom_Verilog_Headers/Custom_Header_Library.vh [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type verilogSource [ipx::get_files ../../Custom_Verilog_Headers/Custom_Header_Library.vh -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file C:/Code/FPGA-HDL/Custom_Verilog_Headers/Custom_Header_Library.vh [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type verilogSource [ipx::get_files ../../Custom_Verilog_Headers/Custom_Header_Library.vh -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::remove_all_hdl_parameter -remove_inferred_params [ipx::current_core]
+ipx::add_model_parameters_from_hdl [ipx::current_core] -top_level_hdl_file c:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/../../Custom_Verilog_Headers/Custom_Header_Library.vh -top_module_name MotorDriver
+set_property is_include true [ipx::get_files ../../Custom_Verilog_Headers/Custom_Header_Library.vh -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+set_property is_include true [ipx::get_files ../../Custom_Verilog_Headers/Custom_Header_Library.vh -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::remove_all_hdl_parameter -remove_inferred_params [ipx::current_core]
+ipx::add_model_parameters_from_hdl [ipx::current_core] -top_level_hdl_file c:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/../../Custom_Verilog_Headers/Custom_Header_Library.vh -top_module_name MotorDriver
+ipx::remove_file ../../Custom_Verilog_Headers/Custom_Header_Library.vh [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+ipx::remove_file ../../Custom_Verilog_Headers/Custom_Header_Library.vh [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+ipx::remove_all_hdl_parameter -remove_inferred_params [ipx::current_core]
+ipx::add_model_parameters_from_hdl [ipx::current_core] -top_level_hdl_file c:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/MotorDriver_V1_0.srcs/sources_1/new/MotorDriver.v -top_module_name MotorDriver
+set_property is_global_include true [get_files  C:/Code/FPGA-HDL/Custom_Verilog_Headers/Custom_Header_Library.vh]
+ipx::remove_all_hdl_parameter -remove_inferred_params [ipx::current_core]
+ipx::add_model_parameters_from_hdl [ipx::current_core] -top_level_hdl_file c:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/MotorDriver_V1_0.srcs/sources_1/new/MotorDriver.v -top_module_name MotorDriver
+set_property core_revision 10 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0
+ipx::open_ipxact_file C:/Xilinx/Vivado/2023.2/data/ip/xilinx/axi4stream_vip_v1_1/component.xml
+ipx::unload_core c:/Xilinx/Vivado/2023.2/data/ip/xilinx/axi4stream_vip_v1_1/component.xml
+ipx::open_ipxact_file C:/Xilinx/Vivado/2023.2/data/ip/xilinx/axi_gpio_v2_0/component.xml
+ipx::current_core c:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/component.xml
+ipx::add_file C:/Code/FPGA-HDL/Custom_Verilog_Headers/Custom_Header_Library.vh [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type verilogSource [ipx::get_files ../../Custom_Verilog_Headers/Custom_Header_Library.vh -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::current_core c:/Xilinx/Vivado/2023.2/data/ip/xilinx/axi_gpio_v2_0/component.xml
+ipx::current_core c:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/component.xml
+ipx::remove_file ../../Custom_Verilog_Headers/Custom_Header_Library.vh [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+ipx::remove_all_hdl_parameter -remove_inferred_params [ipx::current_core]
+ipx::add_model_parameters_from_hdl [ipx::current_core] -top_level_hdl_file c:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/MotorDriver_V1_0.srcs/sources_1/new/MotorDriver.v -top_module_name MotorDriver
+ipx::infer_user_parameters [ipx::current_core]
+ipgui::add_param -name {C_FREQ} -component [ipx::current_core]
+ipx::current_core c:/Xilinx/Vivado/2023.2/data/ip/xilinx/axi_gpio_v2_0/component.xml
+ipx::current_core c:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/component.xml
+ipx::remove_all_port [ipx::current_core]
+ipx::add_ports_from_hdl [ipx::current_core] -top_level_hdl_file c:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/MotorDriver_V1_0.srcs/sources_1/new/MotorDriver.v -top_module_name MotorDriver
+ipx::add_port_map CLK [ipx::get_bus_interfaces CLK.CLK -of_objects [ipx::current_core]]
+set_property physical_name aclk_i [ipx::get_port_maps CLK -of_objects [ipx::get_bus_interfaces CLK.CLK -of_objects [ipx::current_core]]]
+set_property core_revision 11 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0
+synth_design -top MotorDriver -part xc7s50csga324-1 -lint 
+reset_run synth_1
+launch_runs synth_1 -jobs 10
+wait_on_run synth_1
+ipx::current_core c:/Xilinx/Vivado/2023.2/data/ip/xilinx/axi_gpio_v2_0/component.xml
+export_ip_user_files -of_objects  [get_files C:/Code/FPGA-HDL/Custom_Verilog_Headers/Custom_Header_Library.vh] -no_script -reset -force -quiet
+remove_files  C:/Code/FPGA-HDL/Custom_Verilog_Headers/Custom_Header_Library.vh
+add_files -norecurse C:/Code/FPGA-HDL/Custom_Verilog_Headers/Custom_Header_Library.vh
+set_property library work [get_files  C:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/MotorDriver_V1_0.srcs/sources_1/new/MotorDriver.v]
+set_property library xil_defaultlib [get_files  C:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/MotorDriver_V1_0.srcs/sources_1/new/MotorDriver.v]
+set_property is_global_include true [get_files  C:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/MotorDriver_V1_0.srcs/sources_1/new/MotorDriver.v]
+set_property is_global_include false [get_files  C:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/MotorDriver_V1_0.srcs/sources_1/new/MotorDriver.v]
+set_property is_global_include true [get_files  C:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/MotorDriver_V1_0.srcs/sources_1/new/MotorDriver.v]
+set_property is_global_include false [get_files  C:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/MotorDriver_V1_0.srcs/sources_1/new/MotorDriver.v]
+set_property is_global_include true [get_files  C:/Code/FPGA-HDL/Custom_Verilog_Headers/Custom_Header_Library.vh]
+set_property is_global_include true [get_files  C:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/MotorDriver_V1_0.srcs/sources_1/new/MotorDriver.v]
+set_property is_global_include false [get_files  C:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/MotorDriver_V1_0.srcs/sources_1/new/MotorDriver.v]
+set_property is_global_include false [get_files  C:/Code/FPGA-HDL/Custom_Verilog_Headers/Custom_Header_Library.vh]
+ipx::current_core c:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/component.xml
+reset_run synth_1
+launch_runs synth_1 -jobs 10
+wait_on_run synth_1
+set_property is_global_include true [get_files  C:/Code/FPGA-HDL/Custom_Verilog_Headers/Custom_Header_Library.vh]
+reset_run synth_1
+launch_runs synth_1 -jobs 10
+wait_on_run synth_1
+synth_design -include_dirs {../../Custom_Verilog_Headers/Custom_Header_Library.vh"}
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+create_project Sapphire C:/Code/FPGA-HDL/Projects/Sapphire -part xc7s50csga324-1
+set_property board_part digilentinc.com:arty-s7-50:part0:1.1 [current_project]
+set_property  ip_repo_paths  C:/Code/FPGA-HDL [current_project]
+update_ip_catalog
+create_bd_design "design_1"
+update_compile_order -fileset sources_1
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:MotorDriver:1.0 MotorDriver_0
+endgroup
+current_project MotorDriver_V1_0
+current_project Sapphire
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config { Clk {New Clocking Wizard} Freq {100} Ref_Clk0 {} Ref_Clk1 {} Ref_Clk2 {}}  [get_bd_pins MotorDriver_0/aclk_i]
+current_project MotorDriver_V1_0
+current_project Sapphire
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Board_Interface {ddr_clock ( DDR Clock ) } Manual_Source {New External Port (ACTIVE_LOW)}}  [get_bd_pins clk_wiz/clk_in1]
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Board_Interface {reset ( System Reset ) } Manual_Source {New External Port (ACTIVE_HIGH)}}  [get_bd_pins clk_wiz/reset]
+endgroup
+current_project MotorDriver_V1_0
+current_project Sapphire
+startgroup
+create_bd_cell -type ip -vlnv Custom:ip:GPIO:2.0 GPIO_0
+apply_board_connection -board_interface "led_4bits" -ip_intf "GPIO_0/GPIO" -diagram "design_1" 
+endgroup
+current_project MotorDriver_V1_0
+current_project Sapphire
+connect_bd_net [get_bd_pins GPIO_0/mClk_i] [get_bd_pins clk_wiz/clk_out1]
+connect_bd_net [get_bd_pins MotorDriver_0/motor_o] [get_bd_pins GPIO_0/Port_00_i]
+startgroup
+create_bd_cell -type ip -vlnv Custom:ip:GPIO:2.0 GPIO_1
+apply_board_connection -board_interface "push_buttons_4bits" -ip_intf "GPIO_1/GPIO" -diagram "design_1" 
+endgroup
+current_project MotorDriver_V1_0
+current_project Sapphire
+connect_bd_net [get_bd_pins GPIO_1/mClk_i] [get_bd_pins clk_wiz/clk_out1]
+regenerate_bd_layout -routing
+connect_bd_net [get_bd_pins GPIO_1/Port_00_o] [get_bd_pins MotorDriver_0/reset_i]
+connect_bd_net [get_bd_pins GPIO_1/Port_00_o] [get_bd_pins MotorDriver_0/on_off_i]
+undo
+connect_bd_net [get_bd_pins GPIO_1/Port_01_o] [get_bd_pins GPIO_0/Port_01_i]
+undo
+connect_bd_net [get_bd_pins MotorDriver_0/on_off_i] [get_bd_pins GPIO_1/Port_01_o]
+save_bd_design
+current_project MotorDriver_V1_0
+current_project Sapphire
+make_wrapper -files [get_files C:/Code/FPGA-HDL/Projects/Sapphire/Sapphire.srcs/sources_1/bd/design_1/design_1.bd] -top
+startgroup
+endgroup
+startgroup
+endgroup
+save_bd_design
+current_project MotorDriver_V1_0
+current_project Sapphire
+current_project MotorDriver_V1_0
+ipx::unload_core c:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/component.xml
+refresh_design
+ipx::unload_core c:/Xilinx/Vivado/2023.2/data/ip/xilinx/axi_gpio_v2_0/component.xml
+ipx::open_ipxact_file C:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/component.xml
+ipx::remove_all_port [ipx::current_core]
+ipx::add_ports_from_hdl [ipx::current_core] -top_level_hdl_file c:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/MotorDriver_V1_0.srcs/sources_1/new/MotorDriver.v -top_module_name MotorDriver
+set_property name CLK [ipx::get_bus_interfaces CLK.CLK -of_objects [ipx::current_core]]
+ipx::remove_bus_parameter FREQ_HZ [ipx::get_bus_interfaces CLK -of_objects [ipx::current_core]]
+ipx::add_port_map CLK [ipx::get_bus_interfaces CLK -of_objects [ipx::current_core]]
+set_property physical_name mClk_i [ipx::get_port_maps CLK -of_objects [ipx::get_bus_interfaces CLK -of_objects [ipx::current_core]]]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property core_revision 12 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0
+current_project Sapphire
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+current_project MotorDriver_V1_0
+current_project Sapphire
+upgrade_ip -vlnv xilinx.com:user:MotorDriver:1.0 [get_ips  design_1_MotorDriver_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips design_1_MotorDriver_0_0] -no_script -sync -force -quiet
+connect_bd_net [get_bd_pins MotorDriver_0/mClk_i] [get_bd_pins MotorDriver_0/motor_o]
+set_property location {604 544} [get_bd_intf_ports push_buttons_4bits]
+generate_target all [get_files C:/Code/FPGA-HDL/Projects/Sapphire/Sapphire.srcs/sources_1/bd/design_1/design_1.bd]
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Code/FPGA-HDL/Projects/Sapphire/Sapphire.srcs/sources_1/bd/design_1/design_1.bd]
+launch_runs design_1_GPIO_0_0_synth_1
+wait_on_run design_1_GPIO_0_0_synth_1
+launch_runs design_1_GPIO_1_0_synth_1
+wait_on_run design_1_GPIO_1_0_synth_1
+launch_runs design_1_MotorDriver_0_0_synth_1
+wait_on_run design_1_MotorDriver_0_0_synth_1
+close_project
+refresh_design
+set_property strategy {IP Synth} [get_runs synth_1]
+reset_run synth_1
+launch_runs synth_1 -jobs 10
+wait_on_run synth_1
+synth_design -top MotorDriver -part xc7s50csga324-1 -lint 
+synth_design -help
+reset_run synth_1
+launch_runs synth_1 -jobs 10
+wait_on_run synth_1
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 10
+wait_on_run synth_1
+set_property strategy IP_Synth [get_runs synth_1]
+reset_run synth_1
+launch_runs synth_1 -jobs 10
+wait_on_run synth_1
+synth_design -include_dirs {../../Custom_Verilog_Headers/Custom_Header_Library.vh}
+set_property strategy {Vivado Synthesis Defaults} [get_runs synth_1]
+synth_design -include_dirs {../../Custom_Verilog_Headers/Custom_Header_Library.vh}

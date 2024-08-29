@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Aug 29 11:50:53 2024
+# Process ID: 21092
+# Current directory: C:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/MotorDriver_V1_0.runs/synth_1
+# Command line: vivado.exe -log MotorDriver.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MotorDriver.tcl
+# Log file: C:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/MotorDriver_V1_0.runs/synth_1/MotorDriver.vds
+# Journal file: C:/Code/FPGA-HDL/Custom_IP/MotorDriver_v1_0/MotorDriver_V1_0.runs/synth_1\vivado.jou
+# Running On: LT24G23002, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 14, Host memory: 33974 MB
+#-----------------------------------------------------------
+source MotorDriver.tcl -notrace
